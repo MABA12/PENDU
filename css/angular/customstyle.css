@@ -1,0 +1,176 @@
+md-toast span{
+    padding-left: 10px;
+}
+
+md-toast.md-progress .md-toast-content{
+    background-color: #E0F7FA;
+    color: #212121;
+}
+
+md-toast.md-error .md-toast-content{
+    background-color: #F44336;
+    color: #212121;
+}
+
+md-toast.md-success .md-toast-content{
+    background-color: #43A047;
+    color: #FFF;
+}
+
+
+@media (min-width: 1100px) {
+    .table-fixed thead {
+        width: 100%;
+    }
+    .table-fixed tbody {
+        height: auto;
+        overflow-y: auto;
+        width: 100%;
+    }
+    .table-fixed td{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 40px;
+    }
+    .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+        display: block;
+    }
+    .table-fixed tbody td{
+        float: left;
+        height: 40px;
+        padding-top: 5px;
+    }
+    .table-fixed tbody th, .table-fixed thead > tr> th, .table-fixed tfoot > tr> td  {
+        float: left;
+        min-height: 40px;
+        padding-top: 5px;
+    }
+}
+
+md-backdrop.md-opaque.md-default-theme, md-backdrop.md-opaque {
+    background-color: rgba(33,33,33,1.0);
+}
+
+md-dialog.md-default-theme, md-dialog {
+    border-radius: 4px;
+    background-color: rgb(255,255,255);
+    color: rgba(0,0,0,0.87);
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-color: rgb(16,108,200);
+    color: rgba(255,255,255,0.87);
+}
+
+md-dialog {
+    width: 100%;
+}
+
+md-tabs {
+    background: white;
+    border: 1px solid #e1e1e1;
+}
+
+md-tabs md-tabs-wrapper {
+    background: #337ab7;
+}
+
+md-tabs.md-default-theme .md-tab.md-active, md-tabs .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-active md-icon, md-tabs .md-tab.md-active md-icon, md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused, md-tabs.md-default-theme .md-tab.md-focused md-icon, md-tabs .md-tab.md-focused md-icon {
+
+    color: rgb(222,54,65);
+    background: white;
+}
+md-tabs.md-default-theme .md-tab .md-ripple-container, md-tabs .md-tab .md-ripple-container {
+    color: rgb(222,54,65);
+}
+md-tabs.md-default-theme .md-tab, md-tabs .md-tab {
+    color: white;
+}
+md-input-container{
+    margin: 0 !important;
+}
+md-input-container .md-input {
+    color: rgba(0,0,0,0.87);
+    border-color: rgba(0,0,0,1);
+}
+
+md-input-container.md-input-focused label:not(.md-no-float), md-input-container.md-input-has-placeholder label:not(.md-no-float), md-input-container.md-input-has-value label:not(.md-no-float)
+{
+    -webkit-transform: translate3d(0,6px,0) scale(1) !important;
+    transform: translate3d(0,6px,0) scale(1) !important;
+}
+
+md-input-container .md-errors-spacer{
+
+}
+
+md-select{
+    width: 100%;
+}
+
+.md-select-menu-container.md-active{
+    background: #FFF;
+}
+
+md-option[aria-selected='true']{
+    color: #337AB7;
+}
+
+md-ripple-container:hover{
+    background: #337AB7;
+}
+
+.header-searchbox {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.select-header {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+    padding-left: 10.667px;
+    height: 48px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.md-datepicker-input{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.md-datepicker-input-container{
+    width: 100% !important;
+    padding-top: 5px !important;
+}
+
+.md-datepicker-calendar-pane.md-pane-open{
+    background: #FFF;
+}
+
+/*.search .row{
+    padding: 20px 0;
+}
+
+.search .row:first-child{
+    padding-top: 0px;
+    padding-bottom: 0;
+}*/
+
+.search p {
+    letter-spacing: 0.010em;
+    line-height: 1.6em;
+    margin: 0.8em 0 2em;
+}
+
+.table-hover > tbody > tr:hover,
+.table-hover > tbody > tr:nth-of-type(odd):hover{
+    background-color: rgb(16,108,200);
+    color: #FFF;
+}

@@ -1,0 +1,91 @@
+/* changa-200 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/changa-v3-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Changa ExtraLight'), local('Changa-ExtraLight'),
+       url('../fonts/changa-v3-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-200.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-300 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/changa-v3-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Changa Light'), local('Changa-Light'),
+       url('../fonts/changa-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-300.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-regular - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/changa-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Changa'), local('Changa-Regular'),
+       url('../fonts/changa-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-regular.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-500 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/changa-v3-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Changa Medium'), local('Changa-Medium'),
+       url('../fonts/changa-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-500.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-600 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/changa-v3-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Changa SemiBold'), local('Changa-SemiBold'),
+       url('../fonts/changa-v3-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-600.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-700 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/changa-v3-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Changa Bold'), local('Changa-Bold'),
+       url('../fonts/changa-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-700.svg#Changa') format('svg'); /* Legacy iOS */
+}
+/* changa-800 - latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/changa-v3-latin-800.eot'); /* IE9 Compat Modes */
+  src: local('Changa ExtraBold'), local('Changa-ExtraBold'),
+       url('../fonts/changa-v3-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/changa-v3-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/changa-v3-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/changa-v3-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/changa-v3-latin-800.svg#Changa') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,60 @@
+.calendrier{
+
+}
+.calendrier .entete{
+    background: #156EB2;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #156EB2;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+}
+.calendrier .entete select{
+    display: inline-block;
+    width: auto;
+    padding: 0px 10px;
+    text-align: center;
+}
+.calendrier .content{
+    padding: 10px 0;
+    border: 2px solid #156EB2;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+.calendrier .content .day{
+    width: 14%;
+    height: 10vh;
+    border: 1px solid #CCC;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.calendrier .content .day{
+    color: #CCC;
+}
+
+.calendrier .content .day:nth-child(7n+1){
+    margin-left: 1%;
+}
+.calendrier .content .day:nth-child(7n-1), 
+.calendrier .content .day:nth-child(7n)
+{
+    background: #ddd;
+    color: #ccc;
+}
+.calendrier .content .day:nth-child(-n+7){
+    height: auto;
+    background: #00c0ef;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+.calendrier .content .day.today{
+    background: #156EB2;
+    color: #FFF;
+}
+.calendrier .content .day.month{
+    color: #000;
+}
