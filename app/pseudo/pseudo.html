@@ -1,0 +1,27 @@
+<div class="login-box">
+        <div class="login-box-body">
+            <p>Veuillez saisir votre pseudo afin de commencer le jeu.</p>
+            <form method="post" ng-submit="$ctrl.login()">
+                <div class="form-group">
+                    <label for="login">Pseudo</label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input required="" type="text" ng-model="$ctrl.pseudo" class="form-control" placeholder="Pseudo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-lg-7 hidden-sm hidden-xs">
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                        <button type="submit"  class="btn btn-block btn-social btn-primary">
+                            <i class="fa fa-sign-in"></i> Se connecter
+                        </button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+
+        </div>
+        <!-- /.login-box-body -->
+    </div>
