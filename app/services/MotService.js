@@ -28,8 +28,6 @@
             let random = Math.floor((Math.random()*mots.length)+1);
             this.Word = mots[random].toUpperCase();
             
-            console.log(this.Word);
-            
             for(let i=0; i<this.Word.length;i++){
                 this.Result += "-";
             }
