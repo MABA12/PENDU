@@ -1,3 +1,57 @@
 <app-header  class="main-header"></app-header>
 
-<app-content></app-content>
+<section class="content" ng-init="init()">
+    <div class="box box-info">
+        <div class="box-body">
+            <div class="row form-group text-red text-right score">
+                <div class="col-md-12">
+                    ERREUR : {{score.error}} / {{score.total}}
+                </div>
+            </div>
+            <div class="row form-group result">
+                <div class="col-md-12">
+                    {{result}}
+                </div>
+            </div>
+            <div class="row form-group text-center" ng-show="finish">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <a ng-click="init()" class="btn btn-block btn-success replay">REJOUR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="clavier">
+    <div class="box box-info">
+        <div class="box-body">
+                <div class="row form-group">
+                    <div class="col-md-1">&nbsp;</div>
+                    <div class="col-md-1" ng-repeat="item in Clavier" ng-show="$index<10">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-block" ng-disabled="item.tested" ng-click="verif($index)">
+                                {{item.letter}}
+                        </a>
+                    </div>                    
+                    <div class="col-md-1">&nbsp;</div>      
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-1">&nbsp;</div>
+                    <div class="col-md-1" ng-repeat="item in Clavier" ng-show="$index>=10 && $index<20">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-block" ng-disabled="item.tested" ng-click="verif($index)">
+                                {{item.letter}}
+                        </a>
+                    </div>                    
+                    <div class="col-md-1">&nbsp;</div>      
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-3">&nbsp;</div>
+                    <div class="col-md-1" ng-repeat="item in Clavier" ng-show="$index>=20">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-block" ng-disabled="item.tested" ng-click="verif($index)">
+                                {{item.letter}}
+                        </a>
+                    </div>                    
+                    <div class="col-md-3">&nbsp;</div>      
+                </div>
+        </div>
+    </div>
+</section>

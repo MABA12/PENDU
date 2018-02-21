@@ -18,7 +18,8 @@
          $stateProvider
         .state('home', {
             url: '/home',
-            templateUrl: 'app/layout/index.html'
+            templateUrl: 'app/layout/index.html',
+             controller: 'AppContentCtrl'
         })
         
         .state('pseudo', {
